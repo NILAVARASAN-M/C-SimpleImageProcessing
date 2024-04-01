@@ -1,4 +1,9 @@
-# C-SimpleImageProcessing 🖼️
+<div align="center">
+
+# C-SimpleImageProcessing 🖼️  
+
+</div>
+
 <div align="center">
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)&nbsp;
@@ -16,7 +21,9 @@
     <a href="https://github.com/NILAVARASAN-M/C-SimpleImageProcessing/issues">Request Feature</a>
 </h3>
 
-![RGB 2 GRY](https://scikit-image.org/docs/stable/_images/sphx_glr_plot_rgb_to_gray_001.png)
+<div align="center">
+  <img src="https://scikit-image.org/docs/stable/_images/sphx_glr_plot_rgb_to_gray_001.png" alt="RGB to GRY">
+</div>
 
 
 
@@ -34,16 +41,16 @@ No additional installations are required. Simply use a C editor to work with the
 
 ## Features 🛠️
 
-- RGB to GREYSCALE
+✅ RGB to GREYSCALE
 Converts RGB images to grayscale, simplifying image representation.
 
-- Tresholding Image
+✅ Tresholding Image
 Segments an image by setting a threshold value.
   
-- BMP Images
+✅ BMP Images
 Supports reading and writing images in BMP (Bitmap) format.
   
-- PPM Images
+✅ PPM Images
 Supports reading and writing images in PPM (Portable Pixmap) format.
 ## Clone and Use 📋
 
@@ -57,24 +64,25 @@ git clone https://github.com/NILAVARASAN-M/C-SimpleImageProcessing.git
 
 Open the project folder and Navigate to `/sourcecode`.
 You will find three files,
-- allimagePPMtype.c
+
+✔️ allimagePPMtype.c
 It is applicable to RGB and Greyscale image, just convert any format image to PPM3 or PPM6. Run the code, and pass the path of the image in terminal.
 [PPM converted](https://convertio.co/jpg-ppm/)
 
-- BMPTYPEcallbyFUNCTION.c
+✔️ BMPTYPEcallbyFUNCTION.c
 It is applicable only for greyscale images, just convert the format of the image to BMP, and pass the the path of the image in terminal.[BMP converted](https://convertio.co/jpg-bmp/)
 
-- BMPTYPEgenreral.c
+✔️ BMPTYPEgenreral.c
 This is the same as above file, just an another approach of doing for BMP image.[BMP converted](https://convertio.co/jpg-bmp/)
 
 Just click on the files, and run on your compiler.
 ## FAQ
 
-#### 1.) Is the code appilacble only for BMP and PPM formated images??
+#### 1️⃣ Is the code appilacble only for BMP and PPM formated images??
 
 Yes, since C-Elementery language, it does not have inbuilt functions like the other languages do have. So we have to convert images to either PPM3 or PPM6 or BMP.
 
-#### 2.) How can I view PPM images??
+#### 2️⃣ How can I view PPM images??
 
 convert the PPM image to JPG format, and view. [PPM viewer](https://convertio.co/ppm-jpg/)
 ## Other Material
